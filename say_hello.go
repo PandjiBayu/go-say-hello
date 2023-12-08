@@ -1,5 +1,5 @@
 package gosayhello
 
-func SayHi(req string) string {
-	return req
+func SayHi(name string, age int) (string, int) {
+	return name, age
 }
